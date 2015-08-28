@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+  <ribbon>
+    <tabs>
+      <tab id="LGManager_Tab" label="LGManager" >
+        <group id="LGManager_Group" label="Language" >
+          <button id="LGManager_Load" visible="true" size="large" 
+                  label="Load" keytip="L" 
+                  screentip="Load and apply a language." 
+                  onAction="Load" imageMso="FileOpen"/>
+          <button id="LGManager_Save" visible="true" size="large" 
+                  label="Save" keytip="S" 
+                  screentip="Save the current language settings." 
+                  onAction="Save" imageMso="FileSave"/>
+          <button id="LGManager_Handler" visible="true" size="large" 
+                  label="Handler" keytip="H" 
+                  screentip="Toggle the Handler (LanguageSave on normal save, etc)." 
+                  onAction="Button3" imageMso="FileStartWorkflow"/>
+        </group>
+      </tab>
+    </tabs>
+  </ribbon>
+</customUI>
