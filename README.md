@@ -28,6 +28,5 @@ If the Handler is deactivated nothing happens on PP Save /Load.
 
 
 ###Known Issues:
-- Pressing the "X" on the formulas will crash the script
 - PP file names should not contain spaces, as the XML library has problems saving them
 - The reference check for MSXML3 and VBIDE does not work correctly if the refernces are manually set by the user beforehand.
