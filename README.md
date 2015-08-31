@@ -1,6 +1,5 @@
 # PP_LGManager
 This is the language manager plugin for PowerPoint.
-It is currently under no license, but planned to be OpenSource. Please feel free to modify / change / redistribute it.
 
 The PP_LGManager allows the use of multiple languages within one PowerPoint Document, by  defining an XML structure for all shapes.
 Each Shape is stored as an element node inside the .xml file, whereas the text of the shape is stored as a text node. Each new language is stored as a seperate text field as well as a global language node at the start of the document..
