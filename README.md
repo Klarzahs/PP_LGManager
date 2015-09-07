@@ -23,8 +23,28 @@ The Handler button toggles the state of the handler: If active, the normal Save 
 After closing PowerPoint the Handler will be deactivated again.
 If the Handler is deactivated nothing happens on PP Save /Load.
 
+### Format
+<Element NAME="Titel 1">
+	<Text Language="deutsch">
+		<Fragment format="" font="" color="" bullet="">
+			TEXT
+
+format="<alignment(l|c|r)><fontsize(1-xy)><bold><italic><underlined><embossed><shadowed><subscript><superscript>"
+font="<fontlanguage>"
+colorIndex="<nr>"
+bullets="??"
+
+Necessery to compare:
+ParagraphFormat: Alignment (bullet)
+Font: bold, color.RGB, Emboss, italic, name, shadow, size, subscript, superscript, underline
 
 
-
-###Known Issues:
-- The reference check for MSXML3 and VBIDE does not work correctly if the refernces are manually set by the user beforehand.
+###Known Issues / TODO:
+- Fix last block slide to left 
+- bulleting
+- leading/tailing newlines are deleted
+=> insert special char for new lines? check options?
+find with regex pos(\ )
+- save xml inside .ppt											- not possible inside vba, only per shell script / exe
+- look for new pages to add											
+- on Plugin Load: VBIDE check
