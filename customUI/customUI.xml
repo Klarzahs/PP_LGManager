@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<customUI onLoad="ribbonLoaded" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
   <ribbon>
     <tabs>
       <tab id="LGManager_Tab" label="LGManager" >
@@ -12,10 +12,9 @@
                   label="Save" keytip="S" 
                   screentip="Save the current language settings." 
                   onAction="Save" imageMso="FileSave"/>
-          <button id="LGManager_Handler" visible="true" size="large" 
-                  label="Handler" keytip="H" 
-                  screentip="Toggle the Handler (LanguageSave on normal save, etc)." 
-                  onAction="Button3" imageMso="FileStartWorkflow"/>
+		  <toggleButton id="LGManager_Handler" label="Handler" keytip="H" 
+				  screentip="Toggle the Handler (LanguageSave on normal save, etc)." 
+				  size="large" onAction="Button3" getImage="GetImage" />    
         </group>
 		<group id="LGManager_Group2" label="Settings" >
           <button id="LGManager_Configure" visible="true" size="large" 
