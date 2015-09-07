@@ -17,6 +17,12 @@
                   screentip="Toggle the Handler (LanguageSave on normal save, etc)." 
                   onAction="Button3" imageMso="FileStartWorkflow"/>
         </group>
+		<group id="LGManager_Group2" label="Settings" >
+          <button id="LGManager_Configure" visible="true" size="large" 
+                  label="Configure" keytip="C" 
+                  screentip="Change the settings" 
+                  onAction="Configure" imageMso="TableDesign"/>
+        </group>
       </tab>
     </tabs>
   </ribbon>
