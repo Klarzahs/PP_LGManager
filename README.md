@@ -24,17 +24,17 @@ After closing PowerPoint the Handler will be deactivated again.
 If the Handler is deactivated nothing happens on PP Save /Load.
 
 ### Format
-<Element NAME="Titel 1">
-	<Text Language="deutsch">
-		<Fragment format="" font="" color="" bullet="">
+Element NAME="Titel 1"
+	Text Language="deutsch"
+		Fragment format="" font="" color="" bullet=""
 			TEXT
 
-format="<alignment(l|c|r)><fontsize(1-xy)><bold><italic><underlined><embossed><shadowed><subscript><superscript>"
-font="<fontlanguage>"
-colorIndex="<nr>"
+format="alignment(l|c|r)|fontsize(1-xy)|bolditalic|underlined|embossed|shadowed|subscript|superscript|"
+font="fontname"
+colorIndex="nr"
 bullets="??"
 
-Necessery to compare:
+Necessary to compare:
 ParagraphFormat: Alignment (bullet)
 Font: bold, color.RGB, Emboss, italic, name, shadow, size, subscript, superscript, underline
 
