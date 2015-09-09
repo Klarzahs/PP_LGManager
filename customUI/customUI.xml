@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<customUI onLoad="ribbonLoaded" xmlns="http://schemas.microsoft.com/office/2006/01/customui">
+<customUI xmlns="http://schemas.microsoft.com/office/2006/01/customui" onLoad="LGManager_ribbonLoaded">
   <ribbon>
     <tabs>
       <tab id="LGManager_Tab" label="LGManager" >
